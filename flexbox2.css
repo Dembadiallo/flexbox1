@@ -1,0 +1,24 @@
+.container{
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 12px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 5px;
+    margin-left:40%;
+    gap: 19px;
+    justify-content: center;
+}
+
+
+.child{
+    width: 160px;
+    height: 125px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
